@@ -5,7 +5,7 @@ import { NavWrapper } from "../elements"
 export const Nav = () => {
   const data = useStaticQuery(graphql`
     query {
-      logo: file(relativePath: { eq: "logo.png" }) {
+      logo: file(relativePath: { eq: "logo.svg" }) {
         publicURL
       }
     }

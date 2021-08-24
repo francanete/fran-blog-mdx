@@ -1,9 +1,6 @@
 import React from "react"
 import Highlight, { defaultProps } from "prism-react-renderer"
-// import theme from "prism-react-renderer/themes/dracula"
-// import theme from "prism-react-renderer/themes/nightowl"
-import theme from "prism-react-renderer/themes/oceanicnext"
-// import theme from "prism-react-renderer/themes/vsDark"
+import theme from "prism-react-renderer/themes/vsDark"
 
 export const Code = ({ codeString, language, ...props }) => {
   return (
