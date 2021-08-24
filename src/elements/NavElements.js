@@ -7,8 +7,7 @@ export const NavWrapper = styled.nav`
   align-items: center;
 
   img {
-    width: 	300px;
-    height: 132px;
+    
   }
 
   @media ${props => props.theme.breakpoints.tablet} {

@@ -15,7 +15,7 @@ export const Nav = () => {
   return (
     <NavWrapper>
       <Link to="/">
-        <img src={data.logo.publicURL} alt="My Logo" />
+        <img src={data.logo.publicURL} alt="My Logo" width="300px" height="132px" />
       </Link>
     </NavWrapper>
   )
